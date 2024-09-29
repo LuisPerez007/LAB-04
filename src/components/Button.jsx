@@ -1,15 +1,15 @@
 import { useState } from "react";
 
 export const Button = props => {
-    const[inicial, setInicial] = useState(0);
     const{ text } = props;
 
     function Contador() {
-            setInicial(inicial + 5);
+        const alerta = parseInt (Math.random() * 100) + 1;
+            alert(alerta);
     }
     return(
         <button onClick={Contador}>
-           {text} {inicial}
+           {text}
         </button>
     )
 
