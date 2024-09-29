@@ -1,15 +1,15 @@
 import { useState } from "react";
 
 export const Button = props => {
-    const [count, setCount] = useState(0);
-    const { mm } = props;
+    const[inicial, setInicial] = useState(0);
+    const{ text } = props;
 
-    function countButton() {
-        setCount(count + 1);
+    function Contador() {
+            setInicial(inicial + 5);
     }
-    return (
-        <button onClick={countButton}>
-           {mm} {count}
+    return(
+        <button onClick={Contador}>
+           {text} {inicial}
         </button>
     )
 

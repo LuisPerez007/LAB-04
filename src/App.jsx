@@ -1,21 +1,12 @@
 import './App.css'
-import { WrapperList } from './components/WrapperList'
-import { List } from './components/List'
+import { Button } from './components/Button'
 
 function App() {
 
   return (
     <>
-      <WrapperList>
-        <List/>
-      </WrapperList>  
-      <WrapperList >
-      <ul>
-          <li>nose 1</li>
-          <li>nose 2</li>
-          <li>nose 3</li>
-        </ul>
-      </WrapperList>    
+        <h1>hoolaa</h1>
+       <Button text="CONTADOR"/>
     </>
   )
 }
