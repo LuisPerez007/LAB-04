@@ -1,12 +1,15 @@
 import './App.css'
-import { Button } from './components/Button'
+import { Button } from './RandomComponent/Button'
+import { ListaNombres } from './RandomComponent/ListaNombres'
+import { CalculoArea } from './RandomComponent/CalculoArea'
+
 
 function App() {
-
   return (
     <>
-        <h1>hoolaa</h1>
-       <Button text="CONTADOR"/>
+       <Button/>
+       <ListaNombres/>
+        <CalculoArea/>
     </>
   )
 }
